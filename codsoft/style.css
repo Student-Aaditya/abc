@@ -1,0 +1,91 @@
+*{
+    background-color: floralwhite;
+}
+
+
+.s1 h1{
+    text-align: center;
+    background-image: url("flag.jpg");
+    background-size: cover;
+    background-clip: text;
+    /* color: transparent; */
+    font-size: 50px;
+    
+
+}
+.s1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s1 h3{
+    background-image: url("flag.jpg");
+    background-size: cover;
+    background-clip: text;
+    /* color: transparent; */
+    font-size: 40px;
+    margin: -10rem 5rem 5rem 5rem;
+}
+.s1 img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 16rem;
+    margin-left: 10rem;
+    padding: 22px 22px 18px 23px;
+    box-shadow: 8px 8px 7px 11px grey;
+}
+.s1 img:hover.stars{
+    display: block;
+    filter: drop-shadow(0 0 10px red);
+
+}
+.s2{
+    margin :2.5rem;
+}
+.s2 h2{
+    text-align:  center;
+    font-size: 2.3rem;
+    box-shadow: 7px 12px 13px 5px orange;
+    
+}
+h2:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px rgb(221, 233, 54));
+
+}
+.s2  p{
+    font-size: 1.3rem;
+}
+.s3{
+    margin: 3rem;
+}
+.s3 h2{
+    text-align: center;
+    font-size: 2.3rem;
+    box-shadow: 7px 12px 13px 5px rgb(40, 162, 60);
+}
+.s3 p{
+    font-size: 1.3rem;
+}
+.s4{
+    margin: 3rem;
+}
+.s4 h2{
+    text-align: center;
+    font-size: 2.3rem;
+    box-shadow: 7px 12px 13px 5px rgb(29, 71, 147);
+}
+.s4 p{
+    font-size: 1.3rem;
+}
+.s5{
+    margin: 3rem;
+}
+.s5 h2{
+    text-align: center;
+    font-size: 2.3rem;
+    box-shadow: 7px 12px 13px 5px rgb(164, 61, 204);
+}
+.s5 p{
+    font-size: 1.3rem;
+}
